@@ -19,19 +19,44 @@
   }
   
   section{
+    text-align: center;
     height: 120px;
     width: 180px;
     background-color: white;
     padding: 20px;
     margin: 10px 0;
   }
-  
+
+    
   nav{
     padding: 20px;
     background-color: white;
+    position: sticky;
+    top: 0;
+  }
+
+  button {
+    height: 5vh;
+    width: 10vw;
+  }
+  button:hover {
+    
+    background-color: green;
+    border: 4px ridge greenyellow ;
+    color: white;
+    height: 5vh;
+    width: 10vw;
   }
   
-  footer{
-    background-color: #abd1c6;
+  footer {
+    background-color: #004643;
     padding: 20px;
+    color: black;
+
+
+  }
+  footer:hover{
+    background-color: yellow;
+    padding: 20px;
+    color: white;
   }
