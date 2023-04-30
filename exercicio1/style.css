@@ -1,0 +1,23 @@
+/* h1, h2, h3, h4, h5, h6, p {
+    color: orange;
+} */
+
+* {
+    color: orange;
+    font-family: 'Courier New';
+}
+.texto-com-background {
+    background-color: yellow;
+}
+
+#texto-com-outra-cor {
+    color: green;
+}
+
+section > p {
+    color: aquamarine;
+}
+section p:nth-child(2) {
+    color: pink;
+}
+

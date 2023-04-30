@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'arial narrow';
+}
+/* VH/VW OU PORCENTAGEM? 
+
+VG/VW usa como referência o tamanho da tela do usuário.
+% usa como referência o tamanho do elemento pai mais prox
+
+*/
+header {
+    background-color: lightblue;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    font-size: 5vh;
+}
+
+main { 
+    background-color: lightgoldenrodyellow;
+    height: 140vh;
+}
+
+footer {
+    background-color: lightpink;
+    height: 10vh;
+}
